@@ -1,0 +1,8 @@
+@import "src/settings/colors";
+@import "src/settings/fonts";
+
+@import "components/home";
+
+body {
+  font-family: $font-base;
+}

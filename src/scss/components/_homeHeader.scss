@@ -1,0 +1,29 @@
+.home-header {
+  max-width: 1850px;
+  height: 217px;
+  margin: 0 auto;
+  background-color: $color-header-background;
+  color: $color-header-text;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-header__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 50px 0 50px;
+}
+
+.home-header__logo {
+  height: 181px;
+}
+
+.home-header__language {
+  display: flex;
+  
+}
+
+.nav {
+
+}
