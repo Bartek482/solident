@@ -19,11 +19,29 @@
   height: 181px;
 }
 
-.home-header__language {
-  display: flex;
-  
+.home-header__nav {
+  justify-content: space-between;
 }
 
-.nav {
+.home-header__language {
+  display: flex;
+  font-size: $language-size;
+  margin-top: 100px;
+  margin-left: 175px;
+}
 
+.header-button__hover:hover {
+  color: $color-header-hover;
+}
+
+.button-active {
+  color: $color-header-active;
+}
+
+.header-nav {
+  display: flex;
+  margin-bottom: 20px;
+  width: 450px;
+  justify-content: space-evenly;
+  font-size: $nav-size;
 }

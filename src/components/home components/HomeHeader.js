@@ -10,14 +10,14 @@ export function HomeHeader () {
             </div>
             <div className='home-header__container home-header__nav'>
                 <div className='home-header__language'>
-                    <a href='#'>PL</a>
+                    <Link className='header-button__hover button-active' to='/'>PL</Link>
                     <p>/</p>
-                    <a href='#'>ENG</a>
+                    <Link className='header-button__hover' to='/'>EN</Link>
                 </div>
-                <nav className='nav'>
-                    <a href='#'>Ełk</a>
-                    <a href='#'>Wysokie Mazowieckie</a>
-                    <a href='#'>Łomża</a>
+                <nav className='header-nav'>
+                    <Link className='header-button__hover' to='/'>Ełk</Link>
+                    <Link className='header-button__hover' to='/'>Wysokie Mazowieckie</Link>
+                    <Link className='header-button__hover' to='/'>Łomża</Link>
                 </nav>
             </div>
         </div>
