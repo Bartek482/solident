@@ -2,6 +2,7 @@
 @import "src/settings/fonts";
 
 @import "components/home";
+@import "components/_homeBody.scss";
 
 body {
   font-family: $font-base;
