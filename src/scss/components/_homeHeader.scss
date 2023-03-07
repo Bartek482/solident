@@ -6,6 +6,9 @@
   color: $color-header-text;
   display: flex;
   justify-content: space-between;
+  //@media screen and (max-width: 950px) {
+  //  display: none;
+  //}
 }
 
 .home-header__container {
@@ -17,10 +20,19 @@
 
 .home-header__logo {
   height: 181px;
+  @media screen and (max-width: 950px) {
+    height: 100px;
+  }
+  @media screen and (max-width: 350px) {
+    height: 50px;
+  }
 }
 
 .home-header__nav {
   justify-content: space-between;
+  //@media screen and (max-width: 950px) {
+  //  display: none;
+  //}
 }
 
 .home-header__language {
