@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/solident.png"
 
-export function HomeHeader () {
+export function HomeElkHeader () {
     return (
         <section className="top-nav">
             <div>
@@ -13,9 +13,11 @@ export function HomeHeader () {
                 <div className='menu-button'></div>
             </label>
             <ul className="menu">
-                <li><Link to='/elk'>Ełk</Link></li>
-                <li><Link to='/'>Wysokie Mazowieckie</Link></li>
-                <li><Link to='/'>Łomża</Link></li>
+                <li><Link to='/'>Strona główna</Link></li>
+                <li><Link to='/'>O nas</Link></li>
+                <li><Link to='/'>Zakres zabiegów</Link></li>
+                <li><Link to='/'>Cennik</Link></li>
+                <li><Link to='/'>Kontakt</Link></li>
             </ul>
         </section>
     )
