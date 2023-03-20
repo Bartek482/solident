@@ -14,8 +14,8 @@ export function HomeHeader () {
             </label>
             <ul className="menu">
                 <li><Link to='/elk'>Ełk</Link></li>
-                <li><Link to='/'>Wysokie Mazowieckie</Link></li>
-                <li><Link to='/'>Łomża</Link></li>
+                <li><Link to='/wysokie-mazowieckie'>Wysokie Mazowieckie</Link></li>
+                <li><Link to='/lomza'>Łomża</Link></li>
             </ul>
         </section>
     )
